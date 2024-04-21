@@ -22,11 +22,10 @@ current:value you pass to your ref
 It’s like a secret pocket of your component that React doesn’t track.
 useState:
 It is most common and simle hook use to set or reset any specific value/targeted-value of a component.React uses this hook to render change only on that target element without re-rendering of page. 
-Thinking about UI declaratively 
-You’ve seen how to implement a form imperatively above. To better understand how to think in React, you’ll walk through reimplementing this UI in React below:
+
 ### Thinking about UI declaratively
-Identify your component’s different visual states
-Determine what triggers those state changes
-Represent the state in memory using useState
-Remove any non-essential state variables
-Connect the event handlers to set the state
+1>Identify your component’s different visual states.
+2>Determine what triggers those state changes.
+3?Represent the state in memory using useState.
+4>Remove any non-essential state variables.
+5>Connect the event handlers to set the state.
